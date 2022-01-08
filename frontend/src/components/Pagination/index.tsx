@@ -13,7 +13,7 @@ const Pagination = ({ page, onPageChange }: Props) => {
 
     return (
 
-        <div className="pagination justify-content-center">
+        <div className="pagination justify-content-center"> 
             <nav>
                 <ul className="pagination">
                     <li className={`page-item ${page.first ? 'disabled' : ''}`}>
